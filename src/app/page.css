@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#avatarImage {
+  background-image: url("../../public/high.jpg"), url("../../public/low.jpg");
+  background-position: center;
+  height: 1080px;
+  width: 100%;
+}
